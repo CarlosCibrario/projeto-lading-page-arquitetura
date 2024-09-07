@@ -1,0 +1,128 @@
+*{
+margin:0px;
+font: "inter";
+}
+
+#titulo-menu-superior{
+margin-top: 150px;
+margin-left: 70px;
+font-size: 60px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: -0.025em;
+text-align: left;
+
+}
+
+#texto-menu-superior{
+margin-top: 20px;
+margin-left: 70px;
+padding-bottom: 100px;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+
+#menu-superior{
+background-color:#303030;
+color:#FFFFFF;
+padding-top: 10px;
+}
+
+#menu-informacional{
+background-color:#F9F9F9;
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+padding: 50px 50px 50px 0px;
+}
+
+.menu-informacional{
+font-size: 40px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+margin: auto;
+}
+
+.subtitulo-informativo{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+}
+
+#historia{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+padding-top: 100px;
+padding-bottom: 50px;
+margin-right: 10px;
+}
+
+#titulo-historia{
+font-size: 40px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+margin-left: 70px;
+margin-top: 200px;
+}
+
+#texto-historia{
+font-family: Inter;
+font-size: 24px;
+font-weight: 300;
+line-height: 30px;
+text-align: left;
+margin-top: 50px;
+}
+
+#formulario{
+background-color: #303030;
+height: 600px;
+text-align: center;
+
+}
+
+#titulo-formulario{
+color: #FFFFFF;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+padding-top: 100px;
+}
+
+input{
+width: 408px;
+height: 62px;
+background-color:#FFFFFF;
+margin: 20px;
+border: 0px;
+border-radius: 10px;
+padding-left: 15px;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    width: 286px;
+    height: 64px;
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: bolder;
+    margin-top: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #c27e2b;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 5px 10px#a06a29;
+    transition-duration: 0.5s;
+}
